@@ -1,0 +1,231 @@
+==== 上下文 ====
+匹配到的正則模式: err5
+    126: 2024-05-30 01:54:57 [INFO] InstructionTask Change 0000091089_DPDG_05290001.ok time to 20240530014337
+    127: 2024-05-30 01:55:57 [INFO] InstructionTask Get instruction from 0000091089_DPDG_05290001: D;202405300200;/OUTBOX/0000000000/;0000000000_DPDZ_05290001
+    128: 2024-05-30 01:56:57 [INFO] InstructionTask Change 0000091089_DPDG_05290001.ok time to 20240530014337
+    129: 2024-05-30 01:57:57 [INFO] InstructionTask Get instruction from 0000091089_DPDG_05290001: D;202405300200;/OUTBOX/0000000000/;0000000000_DPDZ_05290001
+    130: 2024-05-30 01:58:57 [INFO] InstructionTask Change 0000091089_DPDG_05290001.ok time to 20240530014337
+    131: 2024-05-30 01:59:57 [INFO] InstructionTask Get instruction from 0000091089_DPDG_05290001: D;202405300200;/OUTBOX/0000000000/;0000000000_DPDZ_05290001
+    132: 2024-05-30 02:00:57 [INFO] InstructionTask Change 0000091089_DPDG_05290001.ok time to 20240530014337
+    133: 2024-05-30 02:01:57 [INFO] InstructionTask Get instruction from 0000091089_DPDG_05290001: D;202405300200;/OUTBOX/0000000000/;0000000000_DPDZ_05290001
+    134: 2024-05-30 02:01:57 [INFO] DownloadQueue Put in download queue: /OUTBOX/0000000000/0000000000_DPDZ_05290001
+    135: 2024-05-30 02:01:57 [INFO] FTPUtil Download 0000000000_DPDZ_05290001 process begin
+>>> 136: 2024-05-30 02:01:57 [ERROR] FTPUtil Connection closed without indication. <<<
+    137: 2024-05-30 02:01:57 [INFO] FTPUtil Change server IP 10.164.38.21
+    138: 2024-05-30 02:01:57 [INFO] FTPUtil Wait 20 seconds to retry
+    139: 2024-05-30 02:02:17 [INFO] FTPUtil 18 FTP retry connect 1 to 10.164.38.21 
+    140: 2024-05-30 02:02:17 [ERROR] FTPUtil Connection closed without indication.
+    141: 2024-05-30 02:02:17 [INFO] FTPUtil Change server IP 10.164.38.21
+    142: 2024-05-30 02:02:17 [INFO] FTPUtil Wait 20 seconds to retry
+    143: 2024-05-30 02:02:37 [INFO] DownloadTask Find unfinished download file C:\FTP\in\0000091089_DPDG_05290001.ok
+    144: 2024-05-30 02:02:37 [INFO] DownloadTask Find pair file C:\FTP\in\0000091089_DPDG_05290001
+    145: 2024-05-30 02:02:37 [INFO] FTPUtil 18 FTP retry connect 2 to 10.164.38.21 
+    146: 2024-05-30 02:02:37 [ERROR] FTPUtil Connection closed without indication.
+================
+==== 上下文 ====
+匹配到的正則模式: err1
+>>> 147: 2024-05-30 02:02:37 [ERROR] FTPUtil 10 Download 0000000000_DPDZ_05290001 fail <<<
+    148: 2024-05-30 02:02:37 [INFO] LoggerQueue Put in logger queue: 10 Download 0000000000_DPDZ_05290001 fail
+    149: 2024-05-30 02:02:37 [INFO] FTPUtil Download 0000000000_DPDZ_05290001 process end
+    150: 2024-05-30 02:02:37 [INFO] LoggerQueue 0000091089 091089_SC/10.39.60.33 10 Download 0000000000_DPDZ_05290001 fail
+    151: 2024-05-30 02:02:40 [INFO] UpdateConsoleTask Update console task begin
+    152: 2024-05-30 02:02:40 [INFO] UpdateConsoleTask Update console task end
+    153: 2024-05-30 02:03:37 [INFO] DownloadTask File size equal(59/59 bytes)
+    154: 2024-05-30 02:03:37 [INFO] FTPUtil Get file list process begin
+    155: 2024-05-30 02:03:37 [INFO] FTPUtil Change server IP 10.164.38.21
+    156: 2024-05-30 02:03:37 [ERROR] FTPUtil Connection closed without indication.
+    157: 2024-05-30 02:03:37 [INFO] FTPUtil Change server IP 10.164.38.21
+================
+==== 上下文 ====
+匹配到的正則模式: err5
+    158: 2024-05-30 02:03:37 [INFO] FTPUtil Wait 20 seconds to retry
+    159: 2024-05-30 02:03:57 [INFO] FTPUtil 18 FTP retry connect 1 to 10.164.38.21 
+>>> 160: 2024-05-30 02:03:57 [ERROR] FTPUtil Connection closed without indication. <<<
+    161: 2024-05-30 02:03:57 [INFO] FTPUtil Change server IP 10.164.38.21
+    162: 2024-05-30 02:03:57 [INFO] FTPUtil Wait 20 seconds to retry
+    163: 2024-05-30 02:03:57 [INFO] InstructionTask Get instruction from 0000091089_DPDG_05290001: D;202405300200;/OUTBOX/0000000000/;0000000000_DPDZ_05290001
+    164: 2024-05-30 02:03:57 [INFO] DownloadQueue Put in download queue: /OUTBOX/0000000000/0000000000_DPDZ_05290001
+    165: 2024-05-30 02:03:57 [INFO] FTPUtil Download 0000000000_DPDZ_05290001 process begin
+    166: 2024-05-30 02:03:57 [INFO] FTPUtil Change server IP 10.164.38.21
+    167: 2024-05-30 02:03:57 [ERROR] FTPUtil Connection closed without indication.
+    168: 2024-05-30 02:03:57 [INFO] FTPUtil Change server IP 10.164.38.21
+    169: 2024-05-30 02:03:57 [INFO] FTPUtil Wait 20 seconds to retry
+    170: 2024-05-30 02:04:17 [INFO] FTPUtil 18 FTP retry connect 2 to 10.164.38.21 
+================
+==== 上下文 ====
+匹配到的正則模式: err5
+>>> 171: 2024-05-30 02:04:17 [ERROR] FTPUtil Connection closed without indication. <<<
+    172: 2024-05-30 02:04:17 [INFO] FTPUtil 18 FTP retry connect 1 to 10.164.38.21 
+    173: 2024-05-30 02:04:17 [ERROR] FTPUtil Connection closed without indication.
+    174: 2024-05-30 02:04:17 [INFO] FTPUtil Change server IP 10.164.38.21
+    175: 2024-05-30 02:04:17 [INFO] FTPUtil Wait 20 seconds to retry
+    176: 2024-05-30 02:04:37 [INFO] FTPUtil 18 FTP retry connect 2 to 10.164.38.21 
+    177: 2024-05-30 02:04:38 [INFO] FTPUtil 20 FTP login 10.164.38.21 success
+    178: 2024-05-30 02:05:38 [INFO] FTPUtil Begin download 0000000000_DPDZ_05290001
+    179: 2024-05-30 02:07:37 [INFO] FileMonitorTask FileMonitor process begin
+    180: 2024-05-30 02:07:37 [INFO] FileMonitorTask FileMonitor process end
+    181: 2024-05-30 02:10:07 [INFO] FTPUtil End download 0000000000_DPDZ_05290001
+================
+==== 上下文 ====
+匹配到的正則模式: err5
+    182: 2024-05-30 02:10:07 [INFO] FTPUtil 07 Download 0000000000_DPDZ_05290001 success
+    183: 2024-05-30 02:10:07 [INFO] FTPUtil Download 0000000000_DPDZ_05290001 finished, disconnect to server
+    184: 2024-05-30 02:10:07 [INFO] FTPUtil Download 0000000000_DPDZ_05290001 process end
+    185: 2024-05-30 02:11:07 [INFO] FTPUtil Download 0000000000_DPDZ_05290001.ok process begin
+>>> 186: 2024-05-30 02:11:07 [ERROR] FTPUtil Connection closed without indication. <<<
+    187: 2024-05-30 02:11:07 [INFO] FTPUtil Change server IP 10.164.38.21
+    188: 2024-05-30 02:11:07 [INFO] FTPUtil Wait 20 seconds to retry
+    189: 2024-05-30 02:11:27 [INFO] FTPUtil 18 FTP retry connect 1 to 10.164.38.21 
+    190: 2024-05-30 02:11:27 [ERROR] FTPUtil Connection closed without indication.
+    191: 2024-05-30 02:11:27 [INFO] FTPUtil Change server IP 10.164.38.21
+    192: 2024-05-30 02:11:27 [INFO] FTPUtil Wait 20 seconds to retry
+    193: 2024-05-30 02:11:47 [INFO] FTPUtil 18 FTP retry connect 2 to 10.164.38.21 
+    194: 2024-05-30 02:11:47 [ERROR] FTPUtil Connection closed without indication.
+    195: 2024-05-30 02:11:47 [ERROR] FTPUtil 10 Download 0000000000_DPDZ_05290001.ok fail
+    196: 2024-05-30 02:11:47 [INFO] LoggerQueue Put in logger queue: 10 Download 0000000000_DPDZ_05290001.ok fail
+================
+==== 上下文 ====
+匹配到的正則模式: err1
+    197: 2024-05-30 02:11:47 [INFO] FTPUtil Download 0000000000_DPDZ_05290001.ok process end
+>>> 198: 2024-05-30 02:11:47 [INFO] LoggerQueue 0000091089 091089_SC/10.39.60.33 10 Download 0000000000_DPDZ_05290001.ok fail <<<
+    199: 2024-05-30 02:12:37 [INFO] DownloadTask Find unfinished download file C:\FTP\in\0000091089_DPDG_05290001.ok
+    200: 2024-05-30 02:12:37 [INFO] DownloadTask Find pair file C:\FTP\in\0000091089_DPDG_05290001
+    201: 2024-05-30 02:12:40 [INFO] UpdateConsoleTask Update console task begin
+    202: 2024-05-30 02:12:40 [INFO] UpdateConsoleTask Update console task end
+    203: 2024-05-30 02:12:57 [INFO] InstructionTask Get instruction from 0000091089_DPDG_05290001: D;202405300200;/OUTBOX/0000000000/;0000000000_DPDZ_05290001
+    204: 2024-05-30 02:12:57 [INFO] DownloadQueue Put in download queue: /OUTBOX/0000000000/0000000000_DPDZ_05290001
+    205: 2024-05-30 02:12:57 [INFO] FTPUtil Download 0000000000_DPDZ_05290001 process begin
+    206: 2024-05-30 02:12:57 [INFO] FTPUtil Change server IP 10.164.38.21
+    207: 2024-05-30 02:12:58 [ERROR] FTPUtil Connection closed without indication.
+    208: 2024-05-30 02:12:58 [INFO] FTPUtil Change server IP 10.164.38.21
+================
+==== 上下文 ====
+匹配到的正則模式: err5
+    209: 2024-05-30 02:12:58 [INFO] FTPUtil Wait 20 seconds to retry
+    210: 2024-05-30 02:13:18 [INFO] FTPUtil 18 FTP retry connect 1 to 10.164.38.21 
+>>> 211: 2024-05-30 02:13:18 [ERROR] FTPUtil Connection closed without indication. <<<
+    212: 2024-05-30 02:13:18 [INFO] FTPUtil Change server IP 10.164.38.21
+    213: 2024-05-30 02:13:18 [INFO] FTPUtil Wait 20 seconds to retry
+    214: 2024-05-30 02:13:37 [INFO] DownloadTask File size equal(59/59 bytes)
+    215: 2024-05-30 02:13:37 [INFO] FTPUtil Get file list process begin
+    216: 2024-05-30 02:13:37 [INFO] FTPUtil Change server IP 10.164.38.21
+    217: 2024-05-30 02:13:37 [INFO] FTPUtil 20 FTP login 10.164.38.21 success
+    218: 2024-05-30 02:13:37 [INFO] FTPUtil Get file list finished, disconnect to server
+    219: 2024-05-30 02:13:37 [INFO] FTPUtil Get file list process end
+    220: 2024-05-30 02:13:38 [INFO] FTPUtil 18 FTP retry connect 2 to 10.164.38.21 
+    221: 2024-05-30 02:13:38 [INFO] FTPUtil 20 FTP login 10.164.38.21 success
+================
+==== 上下文 ====
+匹配到的正則模式: err4
+    258: 2024-05-30 02:52:40 [INFO] UpdateConsoleTask Update console task begin
+    259: 2024-05-30 02:52:40 [INFO] UpdateConsoleTask Update console task end
+    260: 2024-05-30 02:55:07 [INFO] DownloadUtil Backup 0000000000_DPDZ_05290001.ok from C:\FTP\in to C:/FTP/backup/20240529
+    261: 2024-05-30 02:55:37 [INFO] DownloadTask Backup 0000000000_DPDZ_05290001.ok from C:\FTP\in to C:/FTP/backup/20240529
+    262: 2024-05-30 02:59:07 [INFO] DownloadUtil Backup 0000000000_DPDZ_05290001 from C:\FTP\in to C:/FTP/backup/20240529
+    263: 2024-05-30 02:59:38 [INFO] DownloadTask Backup 0000000000_DPDZ_05290001 from C:\FTP\in to C:/FTP/backup/20240529
+    264: 2024-05-30 03:02:08 [INFO] DownloadUtil Backup 0000091089_DPDZ_05290001.getok from C:\FTP\in to C:/FTP/backup/20240529
+    265: 2024-05-30 03:02:40 [INFO] UpdateConsoleTask Update console task begin
+    266: 2024-05-30 03:02:40 [INFO] UpdateConsoleTask Update console task end
+    267: 2024-05-30 03:03:38 [INFO] DownloadTask Backup 0000091089_DPDZ_05290001.getok from C:\FTP\in to C:/FTP/backup/20240529
+>>> 268: 2024-05-30 03:04:38 [ERROR] DownloadTask Source 'C:\FTP\in\0000000000_DPDZ_05290001' does not exist <<<
+    269: 2024-05-30 03:07:37 [INFO] FileMonitorTask FileMonitor process begin
+    270: 2024-05-30 03:07:37 [INFO] FileMonitorTask FileMonitor process end
+    271: 2024-05-30 03:12:08 [INFO] DownloadUtil Move C:\FTP\in\0000000000_DPDZ_05290001 to C:/FTP/work
+    272: 2024-05-30 03:12:08 [INFO] CompressUtil Unzip command: C:/FTP/prog/bin/7za.exe e -mmem=512k -oC:/star/bin -wC:/FTP/work -y C:\FTP\work\0000000000_DPDZ_05290001
+    273: 2024-05-30 03:12:38 [INFO] CompressUtil Unzip command: C:/FTP/prog/bin/7za.exe e -mmem=512k -oC:/star/bin -wC:/FTP/work -y C:\FTP\work\0000000000_DPDZ_05290001
+    274: 2024-05-30 03:12:40 [INFO] UpdateConsoleTask Update console task begin
+    275: 2024-05-30 03:12:40 [INFO] UpdateConsoleTask Update console task end
+    276: 2024-05-30 03:22:40 [INFO] UpdateConsoleTask Update console task begin
+    277: 2024-05-30 03:22:40 [INFO] UpdateConsoleTask Update console task end
+    278: 2024-05-30 03:32:40 [INFO] UpdateConsoleTask Update console task begin
+================
+==== 上下文 ====
+匹配到的正則模式: err4
+    370: 2024-05-30 04:12:37 [INFO] DownloadTask Find pair file C:\FTP\in\0000091089_DMAD_05300001
+    371: 2024-05-30 04:12:40 [INFO] UpdateConsoleTask Update console task begin
+    372: 2024-05-30 04:12:40 [INFO] UpdateConsoleTask Update console task end
+    373: 2024-05-30 04:13:37 [INFO] DownloadTask File size equal(814/814 bytes)
+    374: 2024-05-30 04:13:38 [INFO] DownloadUtil Backup 0000091089_DMAD_05300001.ok from C:\FTP\in to C:/FTP/backup/20240529
+    375: 2024-05-30 04:17:38 [INFO] DownloadUtil Backup 0000091089_DMAD_05300001 from C:\FTP\in to C:/FTP/backup/20240529
+    376: 2024-05-30 04:20:38 [INFO] DownloadUtil Backup 0000091089_DMAD_05300001.getok from C:\FTP\in to C:/FTP/backup/20240529
+    377: 2024-05-30 04:21:37 [INFO] DownloadTask Backup 0000091089_DMAD_05300001.ok from C:\FTP\in to C:/FTP/backup/20240529
+    378: 2024-05-30 04:22:40 [INFO] UpdateConsoleTask Update console task begin
+    379: 2024-05-30 04:22:40 [INFO] UpdateConsoleTask Update console task end
+>>> 380: 2024-05-30 04:25:37 [ERROR] DownloadTask Source 'C:\FTP\in\0000091089_DMAD_05300001' does not exist <<<
+    381: 2024-05-30 04:30:38 [INFO] DownloadUtil Move C:\FTP\in\0000091089_DMAD_05300001 to C:/FTP/work
+    382: 2024-05-30 04:30:38 [INFO] CompressUtil Unzip command: C:/FTP/prog/bin/7za.exe e -mmem=512k -oC:/ADDM/VAN/RCV -wC:/FTP/work -y C:\FTP\work\0000091089_DMAD_05300001
+    383: 2024-05-30 04:32:40 [INFO] UpdateConsoleTask Update console task begin
+    384: 2024-05-30 04:32:40 [INFO] UpdateConsoleTask Update console task end
+    385: 2024-05-30 04:33:37 [ERROR] DownloadTask C:\FTP\in\0000091089_DMAD_05300001.getok (系統找不到指定的檔案。)
+    386: 2024-05-30 04:37:37 [ERROR] DownloadTask Source 'C:\FTP\in\0000091089_DMAD_05300001' does not exist
+    387: 2024-05-30 04:39:37 [INFO] CompressUtil Unzip command: C:/FTP/prog/bin/7za.exe e -mmem=512k -oC:/ADDM/VAN/RCV -wC:/FTP/work -y C:\FTP\work\0000091089_DMAD_05300001
+    388: 2024-05-30 04:42:40 [INFO] UpdateConsoleTask Update console task begin
+    389: 2024-05-30 04:42:40 [INFO] UpdateConsoleTask Update console task end
+    390: 2024-05-30 04:52:40 [INFO] UpdateConsoleTask Update console task begin
+================
+==== 上下文 ====
+匹配到的正則模式: err2
+    391: 2024-05-30 04:52:40 [INFO] UpdateConsoleTask Update console task end
+    392: 2024-05-30 04:57:57 [INFO] CompressUtil Error:
+    393: 2024-05-30 04:57:57 [INFO] CompressUtil 
+    394: 2024-05-30 04:57:57 [INFO] CompressUtil cannot find archive
+>>> 395: 2024-05-30 04:57:57 [ERROR] CompressUtil 16 Unzip C:\FTP\work\0000091089_DMAD_05300001 error, exit code[2]: Fatal error <<<
+    396: 2024-05-30 04:57:57 [ERROR] CompressUtil 16 Unzip C:\FTP\work\0000091089_DMAD_05300001 error, exit code[2]: Fatal error
+    397: 2024-05-30 04:57:57 [INFO] LoggerQueue Put in logger queue: 16 Unzip C:\FTP\work\0000091089_DMAD_05300001 error, exit code[2]: Fatal error
+    398: 2024-05-30 04:57:57 [INFO] LoggerQueue 0000091089 091089_SC/10.39.60.33 16 Unzip C:\FTP\work\0000091089_DMAD_05300001 error, exit code[2]: Fatal error
+    399: 2024-05-30 04:58:57 [INFO] DownloadTask Delete C:\FTP\work\0000091089_DMAD_05300001
+    400: 2024-05-30 04:58:57 [INFO] DownloadUtil Delete C:\FTP\work\0000091089_DMAD_05300001
+    401: 2024-05-30 04:58:57 [INFO] FTPUtil Get file list process begin
+    402: 2024-05-30 04:58:58 [INFO] FTPUtil 20 FTP login 10.164.38.21 success
+    403: 2024-05-30 04:58:58 [INFO] FTPUtil Get file list finished, disconnect to server
+    404: 2024-05-30 04:58:58 [INFO] FTPUtil Get file list process end
+    405: 2024-05-30 04:58:58 [INFO] FTPUtil Get file list process begin
+================
+==== 上下文 ====
+匹配到的正則模式: err4
+    461: 2024-05-30 05:13:37 [INFO] DownloadTask File size equal(171994/171994 bytes)
+    462: 2024-05-30 05:13:43 [INFO] DownloadUtil Backup 0000091089_DMAD_05290010.ok from C:\FTP\in to C:/FTP/backup/20240529
+    463: 2024-05-30 05:14:47 [INFO] HousekeepingTask 15 Housekeep C:\FTP\backup\20240429\0000091089_DFAG_04290001 success
+    464: 2024-05-30 05:17:43 [INFO] DownloadUtil Backup 0000091089_DMAD_05290010 from C:\FTP\in to C:/FTP/backup/20240529
+    465: 2024-05-30 05:18:47 [INFO] HousekeepingTask 15 Housekeep C:\FTP\backup\20240429\0000091089_DFAG_04290001.getok success
+    466: 2024-05-30 05:20:43 [INFO] DownloadUtil Backup 0000091089_DMAD_05290010.getok from C:\FTP\in to C:/FTP/backup/20240529
+    467: 2024-05-30 05:21:37 [INFO] DownloadTask Backup 0000091089_DMAD_05290010.ok from C:\FTP\in to C:/FTP/backup/20240529
+    468: 2024-05-30 05:22:40 [INFO] UpdateConsoleTask Update console task begin
+    469: 2024-05-30 05:22:40 [INFO] UpdateConsoleTask Update console task end
+    470: 2024-05-30 05:22:47 [INFO] HousekeepingTask 15 Housekeep C:\FTP\backup\20240429\0000091089_DFAG_04290001.ok success
+>>> 471: 2024-05-30 05:25:37 [ERROR] DownloadTask Source 'C:\FTP\in\0000091089_DMAD_05290010' does not exist <<<
+    472: 2024-05-30 05:26:47 [INFO] HousekeepingTask 15 Housekeep C:\FTP\backup\20240429\0000091089_DFAZ_04290001.getok success
+    473: 2024-05-30 05:30:37 [ERROR] DownloadTask C:\FTP\in\0000091089_DMAD_05290010.getok (系統找不到指定的檔案。)
+    474: 2024-05-30 05:30:43 [INFO] DownloadUtil Move C:\FTP\in\0000091089_DMAD_05290010 to C:/FTP/work
+    475: 2024-05-30 05:30:43 [INFO] CompressUtil Unzip command: C:/FTP/prog/bin/7za.exe e -mmem=512k -oC:/ADDM/VAN/RCV -wC:/FTP/work -y C:\FTP\work\0000091089_DMAD_05290010
+    476: 2024-05-30 05:30:47 [INFO] HousekeepingTask 15 Housekeep C:\FTP\backup\20240429\0000091089_DLVB_042922144100 success
+    477: 2024-05-30 05:32:40 [INFO] UpdateConsoleTask Update console task begin
+    478: 2024-05-30 05:32:40 [INFO] UpdateConsoleTask Update console task end
+    479: 2024-05-30 05:34:37 [ERROR] DownloadTask Source 'C:\FTP\in\0000091089_DMAD_05290010' does not exist
+    480: 2024-05-30 05:34:47 [INFO] HousekeepingTask 15 Housekeep C:\FTP\backup\20240429\0000091089_DLVB_042922144100.getok success
+    481: 2024-05-30 05:36:37 [INFO] CompressUtil Unzip command: C:/FTP/prog/bin/7za.exe e -mmem=512k -oC:/ADDM/VAN/RCV -wC:/FTP/work -y C:\FTP\work\0000091089_DMAD_05290010
+================
+==== 上下文 ====
+匹配到的正則模式: err2
+    484: 2024-05-30 05:42:40 [INFO] UpdateConsoleTask Update console task end
+    485: 2024-05-30 05:42:47 [INFO] HousekeepingTask 15 Housekeep C:\FTP\backup\20240429\0000091089_DMAD_04300001 success
+    486: 2024-05-30 05:46:48 [INFO] HousekeepingTask 15 Housekeep C:\FTP\backup\20240429\0000091089_DMAD_04300001.getok success
+    487: 2024-05-30 05:50:48 [INFO] HousekeepingTask 15 Housekeep C:\FTP\backup\20240429\0000091089_DMAD_04300001.ok success
+    488: 2024-05-30 05:52:40 [INFO] UpdateConsoleTask Update console task begin
+    489: 2024-05-30 05:52:40 [INFO] UpdateConsoleTask Update console task end
+    490: 2024-05-30 05:54:48 [INFO] HousekeepingTask 15 Housekeep C:\FTP\backup\20240429\0000091089_EIVB_042913000600 success
+    491: 2024-05-30 05:54:57 [INFO] CompressUtil 7-Zip (A) 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+    492: 2024-05-30 05:54:57 [INFO] CompressUtil Error:
+    493: 2024-05-30 05:54:57 [INFO] CompressUtil cannot find archive
+>>> 494: 2024-05-30 05:54:57 [ERROR] CompressUtil 16 Unzip C:\FTP\work\0000091089_DMAD_05290010 error, exit code[2]: Fatal error <<<
+    495: 2024-05-30 05:54:57 [ERROR] CompressUtil 16 Unzip C:\FTP\work\0000091089_DMAD_05290010 error, exit code[2]: Fatal error
+    496: 2024-05-30 05:54:57 [INFO] LoggerQueue Put in logger queue: 16 Unzip C:\FTP\work\0000091089_DMAD_05290010 error, exit code[2]: Fatal error
+    497: 2024-05-30 05:54:57 [INFO] LoggerQueue 0000091089 091089_SC/10.39.60.33 16 Unzip C:\FTP\work\0000091089_DMAD_05290010 error, exit code[2]: Fatal error
+    498: 2024-05-30 05:55:57 [INFO] DownloadUtil Delete C:\FTP\work\0000091089_DMAD_05290010
+    499: 2024-05-30 05:55:57 [INFO] DownloadTask Delete C:\FTP\work\0000091089_DMAD_05290010
+    500: 2024-05-30 05:55:57 [INFO] FTPUtil Get file list process begin
+    501: 2024-05-30 05:55:57 [INFO] FTPUtil 20 FTP login 10.164.38.21 success
+    502: 2024-05-30 05:55:58 [INFO] FTPUtil Get file list finished, disconnect to server
+    503: 2024-05-30 05:55:58 [INFO] FTPUtil Get file list process end
+    504: 2024-05-30 05:55:58 [INFO] FTPUtil Get file list process begin
+================
